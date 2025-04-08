@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #1e1e2f;
+  color: #ffffff;
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quote-container {
+  text-align: center;
+  background: #28283f;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(243, 156, 18, 0.3);
+}
+.quote-container .quote-text {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.quote-container .quote-author {
+  font-style: italic;
+  color: #f8c573;
+  margin-bottom: 2rem;
+}
+.quote-container .quote-btn {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  background: #f39c12;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.quote-container .quote-btn:hover {
+  background: #c87f0a;
+}/*# sourceMappingURL=rn.css.map */

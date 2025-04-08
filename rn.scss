@@ -1,0 +1,49 @@
+$primary-color: #1e1e2f;
+$accent-color: #f39c12;
+$text-color: #ffffff;
+
+body {
+  margin: 0;
+  padding: 0;
+  background: $primary-color;
+  color: $text-color;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quote-container {
+  text-align: center;
+  background: lighten($primary-color, 5%);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba($accent-color, 0.3);
+
+  .quote-text {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .quote-author {
+    font-style: italic;
+    color: lighten($accent-color, 20%);
+    margin-bottom: 2rem;
+  }
+
+  .quote-btn {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    background: $accent-color;
+    color: $text-color; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+    &:hover {
+      background: darken($accent-color, 10%);
+    }
+  }
+}
