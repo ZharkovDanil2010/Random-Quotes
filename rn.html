@@ -6,12 +6,25 @@
   <title>Random Quote</title>
   <link rel="stylesheet" href="rn.css" />
 </head>
-<body>
+<body> 
   <div class="quote-container">
-    <p class="quote-text">Нажми кнопку, чтобы получить цитату</p>
-    <p class="quote-author"></p>
-    <button class="quote-btn">Показать цитату</button>
+    <div class="quote-items">
+      <p class="quote-text">Press the button to get a quote</p>
+      <p class="quote-author"></p>
+    </div>
+    <div class="generate-quote-btn">
+      <button class="quote-btn btn">Generate a quote</button>
+    </div>
+    <div class="title-add-delete-favorities">
+      <button class="favorite-btn btn">Add to favorities</button>
+      <div class="favorite-title">Your favorite quotes:</div>
+      <div class="favorite-quote"></div>
+    </div>
+    <div class="favorities_container">
+
+    </div>
   </div>
-  <script src="rn.js"></script>
+  <script src="quotes.js"></script>
+  <script src="rn.js" type="module"></script>
 </body>
 </html>
