@@ -71,14 +71,10 @@ body {
   width: 90%;
   box-shadow: 0 0 10px rgba(245, 158, 11, 0.3);
   transition: transform 0.2s ease;
-
-  &:hover {
-    transform: scale(1.01);
-  }
 }
 
 .favorite-quote {
-  color: #f9fafb; // почти белый
+  color: #f9fafb; 
   font-size: 1.1rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
@@ -86,14 +82,19 @@ body {
 }
 
 .favorite-author {
-  color: #f59e0b; // оранжевый акцент
+  color: #f59e0b; 
   font-size: 0.95rem;
   font-style: italic;
   text-align: right;
 }
 .favorite-btn {
-  display: none;;
+  display: none;
+  cursor: pointer;
 }
+.remove-fav {
+  cursor: pointer;
+}
+
 
 
 

@@ -65,9 +65,6 @@ body {
   box-shadow: 0 0 10px rgba(245, 158, 11, 0.3);
   transition: transform 0.2s ease;
 }
-.favorite-card:hover {
-  transform: scale(1.01);
-}
 
 .favorite-quote {
   color: #f9fafb;
@@ -86,4 +83,9 @@ body {
 
 .favorite-btn {
   display: none;
+  cursor: pointer;
+}
+
+.remove-fav {
+  cursor: pointer;
 }/*# sourceMappingURL=rn.css.map */
